@@ -48,10 +48,10 @@
 
         <nav id="navbar" class="navbar">
           <ul>
-            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-            <li><a class="nav-link scrollto" href="#about">About</a></li>
-            <li><a class="nav-link scrollto" href="#services">Services</a></li>
-            <li><a href="product.html">Product</a></li>
+            <li><a class="nav-link scrollto" href="index.html#hero">Home</a></li>
+            <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
+            <li><a class="nav-link scrollto" href="index.html#services">Services</a></li>
+            <li><a class="nav-link scrollto" href="#portfolio">Product</a></li>
             <!-- <li><a href="blog.html">Blog</a></li> -->
             <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
@@ -79,274 +79,141 @@
     </header>
     <!-- End Header -->
 
-    <!-- ======= hero Section ======= -->
-    <section id="hero">
-      <div class="hero-container">
-        <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
-          <ol id="hero-carousel-indicators" class="carousel-indicators"></ol>
-
-          <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active" style="background-image: url(assets/img/hero-carousel/1.jpg)">
-              <div class="carousel-container">
-                <div class="container">
-                  <h2 class="animate__animated animate__fadeInDown">Chemical | Plant | Laboratory</h2>
-                  <p class="animate__animated animate__fadeInUp">PT Mindor Perkasa Indonesia</p>
-                  <a href="#about" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/2.jpg)">
-              <div class="carousel-container">
-                <div class="container">
-                  <h2 class="animate__animated animate__fadeInDown">Chemical | Plant | Laboratory</h2>
-                  <p class="animate__animated animate__fadeInUp">PT Mindor Perkasa Indonesia</p>
-                  <a href="#about" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/3.jpg)">
-              <div class="carousel-container">
-                <div class="container">
-                  <h2 class="animate__animated animate__fadeInDown">Chemical | Plant | Laboratory</h2>
-                  <p class="animate__animated animate__fadeInUp">PT Mindor Perkasa Indonesia</p>
-                  <a href="#about" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-          </a>
-
-          <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
-            <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-          </a>
-        </div>
-      </div>
-    </section>
-    <!-- End Hero Section -->
-
-    <main id="main">
-      <!-- ======= About Section ======= -->
-      <div id="about" class="about-area area-padding">
+    <!-- ======= Portfolio Section ======= -->
+      <div id="portfolio" class="portfolio-area area-padding fix">
         <div class="container">
           <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
               <div class="section-headline text-center">
-                <h2>About Us</h2>
+                <h2>Our Products</h2>
               </div>
             </div>
           </div>
-          <div class="row">
-            <!-- single-well start-->
-            <div class="col-md-6 col-sm-6 col-xs-12">
-              <div class="well-left">
-                <div class="single-well">
-                  <a href="#">
-                    <img src="assets/img/about/1.jpg" alt="" />
-                  </a>
+          <div class="row wesome-project-1 fix">
+            <!-- Start Portfolio -page -->
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <ul id="portfolio-flters">
+                <li data-filter="*" class="filter-active">All</li>
+                <li data-filter=".filter-app">App</li>
+                <li data-filter=".filter-card">Card</li>
+                <li data-filter=".filter-web">Web</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="row awesome-project-content portfolio-container">
+            <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app portfolio-item">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="assets/img/portfolio/1.jpg" alt="" /></a>
+                  <div class="add-actions text-center">
+                    <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="assets/img/portfolio/1.jpg">
+                        <h4>Business City</h4>
+                        <span>Web Development</span>
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <!-- single-well end-->
-            <div class="col-md-6 col-sm-6 col-xs-12">
-              <div class="well-middle">
-                <div class="single-well">
-                  <a href="#">
-                    <h4 class="sec-head">Profile</h4>
-                  </a>
-                  <p>
-                    PT. Mindor Perkasa Indonesia is a company engaged in the field supply material of chemicals and equipments especialy for water treatment process. Engineering services include installation, repair, maintenance and
-                    contract mechanical/electrical service of Waste Water Treatment Plant (WWTP), facilities and equipment. The other infrastructure, such as Reverses Osmosis System Cooling Towers System and Boilers System, Water Treatment
-                    Plant and Waste Water Treatment Plant.
-                  </p>
-                  <a href="#">
-                    <h4 class="sec-head">Goals</h4>
-                  </a>
-                  <p>To be a superior and professional company in the field of trade and services, which prioritize satisfaction customers with the best commitment and service.</p>
+            <!-- portfolio-item end -->
+
+            <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-web">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="assets/img/portfolio/2.jpg" alt="" /></a>
+                  <div class="add-actions text-center">
+                    <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="assets/img/portfolio/2.jpg">
+                        <h4>Blue Sea</h4>
+                        <span>Photosho</span>
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <!-- End col-->
+            <!-- portfolio-item end -->
+
+            <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-card">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="assets/img/portfolio/3.jpg" alt="" /></a>
+                  <div class="add-actions text-center">
+                    <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="assets/img/portfolio/3.jpg">
+                        <h4>Beautiful Nature</h4>
+                        <span>Web Design</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio-item end -->
+
+            <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-web">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="assets/img/portfolio/4.jpg" alt="" /></a>
+                  <div class="add-actions text-center">
+                    <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="assets/img/portfolio/4.jpg">
+                        <h4>Creative Team</h4>
+                        <span>Web design</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio-item end -->
+
+            <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="assets/img/portfolio/5.jpg" alt="" /></a>
+                  <div class="add-actions text-center text-center">
+                    <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="assets/img/portfolio/5.jpg">
+                        <h4>Beautiful Flower</h4>
+                        <span>Web Development</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio-item end -->
+
+            <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-web">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="assets/img/portfolio/6.jpg" alt="" /></a>
+                  <div class="add-actions text-center">
+                    <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="assets/img/portfolio/6.jpg">
+                        <h4>Night Hill</h4>
+                        <span>Photoshop</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio-item end -->
           </div>
         </div>
       </div>
-      <!-- End About Section -->
-
-      <!-- ======= Services Section ======= -->
-      <div id="services" class="services-area area-padding">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-              <div class="section-headline services-head text-center">
-                <h2>Our Services</h2>
-              </div>
-            </div>
-          </div>
-          <div class="row text-center">
-            <!-- Start Left services -->
-            <div class="col-md-3 col-sm-4 col-xs-12">
-              <div class="about-move">
-                <div class="services-details">
-                  <div class="single-services">
-                    <a class="services-icon" href="#">
-                      <i class="bi bi-clipboard-data"></i>
-                    </a>
-                    <!-- <h4>Expert Coder</h4> -->
-                    <p>Chemical and Equipment for Water Treatment Plant, Reverses Osmosis System, Boiler Water System, Cooling Water System.</p>
-                  </div>
-                </div>
-                <!-- end about-details -->
-              </div>
-            </div>
-            <div class="col-md-3 col-sm-4 col-xs-12">
-              <div class="about-move">
-                <div class="services-details">
-                  <div class="single-services">
-                    <a class="services-icon" href="#">
-                      <i class="bi bi-droplet-half"></i>
-                    </a>
-                    <!-- <h4>Creative Designer</h4> -->
-                    <p>Wholesale of basic chemical materials and goods.</p>
-                  </div>
-                </div>
-                <!-- end about-details -->
-              </div>
-            </div>
-            <div class="col-md-3 col-sm-4 col-xs-12">
-              <!-- end col-md-4 -->
-              <div class="about-move">
-                <div class="services-details">
-                  <div class="single-services">
-                    <a class="services-icon" href="#">
-                      <i class="bi bi-eyedropper"></i>
-                    </a>
-                    <!-- <h4>Wordpress Developer</h4> -->
-                    <p>Wholesale of laboratory, pharmaceutical and medical equipment.</p>
-                  </div>
-                </div>
-                <!-- end about-details -->
-              </div>
-            </div>
-            <div class="col-md-3 col-sm-4 col-xs-12">
-              <!-- end col-md-4 -->
-              <div class="about-move">
-                <div class="services-details">
-                  <div class="single-services">
-                    <a class="services-icon" href="#">
-                      <i class="bi bi-briefcase-fill"></i>
-                    </a>
-                    <!-- <h4>Social Marketer</h4> -->
-                    <p>Wholesale of office and industrial machinery, spare parts andequipment.</p>
-                  </div>
-                </div>
-                <!-- end about-details -->
-              </div>
-            </div>
-            <!-- End Left services -->
-            <div class="col-md-3 col-sm-4 col-xs-12">
-              <!-- end col-md-4 -->
-              <div class="about-move">
-                <div class="services-details">
-                  <div class="single-services">
-                    <a class="services-icon" href="#">
-                      <i class="bi bi-lightning-charge-fill"></i>
-                    </a>
-                    <!-- <h4>Seo Expart</h4> -->
-                    <p>Retail trade in household electrical appliances and lighting equipment and accessories.</p>
-                  </div>
-                </div>
-                <!-- end about-details -->
-              </div>
-            </div>
-            <!-- End Left services -->
-            <div class="col-md-3 col-sm-4 col-xs-12">
-              <!-- end col-md-4 -->
-              <div class="about-move">
-                <div class="services-details">
-                  <div class="single-services">
-                    <a class="services-icon" href="#">
-                      <i class="bi bi-inboxes"></i>
-                    </a>
-                    <!-- <h4>24/7 Support</h4> -->
-                    <p>Wholesale of stationery and drawing.</p>
-                  </div>
-                </div>
-                <!-- end about-details -->
-              </div>
-            </div>
-            <!-- End Left services -->
-            <div class="col-md-3 col-sm-4 col-xs-12">
-              <!-- end col-md-4 -->
-              <div class="about-move">
-                <div class="services-details">
-                  <div class="single-services">
-                    <a class="services-icon" href="#">
-                      <i class="bi bi-moisture"></i>
-                    </a>
-                    <!-- <h4>24/7 Support</h4> -->
-                    <p>Installation of clean water facilities and wastewater treatment.</p>
-                  </div>
-                </div>
-                <!-- end about-details -->
-              </div>
-            </div>
-            <!-- End Left services -->
-            <div class="col-md-3 col-sm-4 col-xs-12">
-              <!-- end col-md-4 -->
-              <div class="about-move">
-                <div class="services-details">
-                  <div class="single-services">
-                    <a class="services-icon" href="#">
-                      <i class="bi bi-recycle"></i>
-                    </a>
-                    <!-- <h4>24/7 Support</h4> -->
-                    <p>Cleaning and chemical cleaning services.</p>
-                  </div>
-                </div>
-                <!-- end about-details -->
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- End Services Section -->
-
-      <!-- ======= Rviews Section ======= -->
-      <div class="reviews-area">
-        <div class="row g-0">
-          <div class="col-lg-6">
-            <img src="assets/img/about/2.jpg" alt="" class="img-fluid" />
-          </div>
-          <div class="col-lg-6 work-right-text d-flex align-items-center">
-            <div class="px-5 py-5 py-lg-0">
-              <h2>working with us</h2>
-              <h5>Chemical | Plant | Laboratory</h5>
-              <a href="#contact" class="ready-btn scrollto">Contact us</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- End Rviews Section -->
-
-      <!-- ======= Suscribe Section ======= -->
-      <div class="suscribe-area">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs=12">
-              <div class="suscribe-text text-center">
-                <h3>Welcome to our Mindor Perkasa Indonesia company</h3>
-                <a class="sus-btn" href="#">Get A quate</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- End Suscribe Section -->
-
+      <!-- End Portfolio Section -->
+      
       <!-- ======= Contact Section ======= -->
       <div id="contact" class="contact-area">
         <div class="contact-inner area-padding">
