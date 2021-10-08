@@ -1,6 +1,6 @@
 Thanks for downloading this template!
 
-Template Name: eBusiness
-Template URL: https://bootstrapmade.com/ebusiness-bootstrap-corporate-template/
+Template Name: MyResume
+Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
 Author: BootstrapMade.com
 License: https://bootstrapmade.com/license/
